@@ -78,27 +78,27 @@ A elicitação de requisitos foi realizada por meio da análise do Documento de 
 
 ## **3. Requisitos Não Funcionais**
 
-### **3.1. RNF002 - Desempenho**
+### _3.1. RNF002 - Desempenho_
 
 - **Objetivo:** O sistema deve ser eficiente em termos de performance.
 - **Comportamento:** O aplicativo deve ser capaz de carregar documentos de até 10 MB em menos de 2 segundos, e realizar operações de salvamento em até 1 segundo.
 
-### **3.2. RNF004 - Confiabilidade**
+### _3.2. RNF004 - Confiabilidade_
 
 - **Objetivo:** O sistema deve ser confiável, prevenindo a perda de dados.
 - **Comportamento:** O sistema deve exibir mensagens claras em caso de erro e proteger os dados contra corrupção em caso de falhas.
 
-### **3.3. RNF005 - Segurança**
+### _3.3. RNF005 - Segurança_
 
 - **Objetivo:** Garantir que os arquivos e dados do usuário sejam mantidos seguros.
 - **Comportamento:** O sistema deve verificar a integridade dos arquivos ao abri-los e evitar abrir arquivos maliciosos.
 
-### **3.4. RNF006 - Manutenibilidade**
+### _3.4. RNF006 - Manutenibilidade_
 
 - **Objetivo:** Facilitar a manutenção e evolução do software.
 - **Comportamento:** O código do aplicativo será modular, e cada módulo será documentado e bem estruturado para permitir futuras modificações.
 
-### **3.5. RNF007 - Acessibilidade**
+### _3.5. RNF007 - Acessibilidade_
 
 - **Objetivo:** Garantir que o aplicativo seja acessível para todos os usuários, incluindo aqueles com deficiência.
 - **Comportamento:** Todos os elementos interativos do aplicativo terão descrições e tooltips que expliquem sua funcionalidade.
