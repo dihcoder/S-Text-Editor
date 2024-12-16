@@ -82,7 +82,7 @@ Links para os wireframes do **popup de pesquisa** e do **popup de aviso** abaixo
 
 ---
 
-### **X.X. Referências**
+## **4. Referências**
 
 - Software de diagramação online **draw.io**: [https://app.diagrams.net/](https://app.diagrams.net/).
 - Wireframe completo: [Wireframe.pdf](./Wireframe.pdf)
