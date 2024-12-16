@@ -16,6 +16,12 @@ O **S Text Editor** será um editor de texto acessível e intuitivo que atender�
 
 - **MVC:** Model-View-Controller, um padrão de arquitetura de software.
 
+### **1.4. Referências**
+
+- Documento de Especificação de Requisitos: [`SRS.md`](./SRS.md)
+- Documento de Design do Projeto: [`Design.md`](./Design.md)
+- Documentação do JavaFX: [`https://openjfx.io`](https://openjfx.io/javadoc/23/)
+
 ## **2. Posição**
 
 ### **2.1. Oportunidade de Negócio**
