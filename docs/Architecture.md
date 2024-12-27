@@ -19,24 +19,22 @@ O S Text Editor é um aplicativo de desktop em Java que fornece recursos básico
 ```
 com.stexteditor/
 ├── model/
-│   ├── Document.java          # Representa o documento de texto e seu conteúdo
-│   ├── FileManager.java       # Lida com operações de arquivo (leitura/gravação)
-│   └── TextBuffer.java        # Gerencia o conteúdo de texto e as operações de edição
+│   ├── Document.java            # Representa o documento de texto e seu conteúdo
+│   ├── FileManager.java         # Lida com operações de arquivo (leitura/gravação)
+│   └── TextBuffer.java          # Gerencia o conteúdo de texto e as operações de edição
 ├── view/
-│   ├── fxml/
-│   │   ├── main.fxml           # Layout da janela principal
-│   │   ├── menubar.fxml        # Layout do da barra de menu
-│   │   └── dialogs.fxml        # Layout de caixas de diálogo
-│   ├── MainWindow.java         # Controlador da janela principal da aplicação
-│   ├── MenuBarController.java  # Controlador da barra de menu
-│   └── StatusBar.java          # Controlador da barra de status
+│   ├── main.fxml                # Layout da janela principal
+│   ├── menubar.fxml             # Layout do da barra de menu ou controles
+│   ├── statusbar.fxml           # Layout da barra de status ou rodapé
+│   └── dialog.fxml              # Layout de caixas de diálogo/aviso
 ├── controller/
-│   ├── MainController.java     # Controlador principal da aplicação
-│   ├── FileController.java     # Controlador de operações de arquivo
-│   └── EditController.java     # Controlador de operação de edição de texto
+│   ├── MainController.java      # Controlador principal da aplicação
+│   ├── MenuBarController.java   # Controlador da barra de menu ou controles
+│   ├── StatusBarController.java # Controlador da barra de status ou rodapé
+│   └── DialogController.java    # Controlador das caixas de diálogo/aviso
 └── util/
-    ├── Config.java             # Configuração do aplicativo
-    └── Logger.java             # Registro do aplicativo
+    ├── Config.java              # Configuração do aplicativo
+    └── Logger.java              # Registro do aplicativo
 ```
 
 ### 3. Principais decisões técnicas
