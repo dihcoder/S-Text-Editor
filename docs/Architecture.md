@@ -24,8 +24,8 @@ com.stexteditor/
 │   └── TextBuffer.java          # Gerencia o conteúdo de texto e as operações de edição
 ├── view/
 │   ├── main.fxml                # Layout da janela principal
-│   ├── menubar.fxml             # Layout do da barra de menu ou controles
-│   ├── statusbar.fxml           # Layout da barra de status ou rodapé
+│   ├── menu-bar.fxml             # Layout do da barra de menu ou controles
+│   ├── status-bar.fxml           # Layout da barra de status ou rodapé
 │   └── dialog.fxml              # Layout de caixas de diálogo/aviso
 ├── controller/
 │   ├── MainController.java      # Controlador principal da aplicação
